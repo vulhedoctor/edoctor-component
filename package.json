@@ -1,15 +1,28 @@
 {
   "name": "edoctor-component",
   "version": "1.0.0",
-  "description": "eDoctor Components ",
+  "description": "eDoctor Component ",
   "main": "build/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel lib -d build",
     "prepublish": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vulhedoctor/edoctor-component.git"
+  },
   "author": "vulh@edoctor.vn",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vulhedoctor/edoctor-component/issues"
+  },
+  "homepage": "https://github.com/vulhedoctor/edoctor-component#readme",
   "dependencies": {
     "react": "^15.6.1",
     "react-addons-css-transition-group": "^15.6.0",
